@@ -97,26 +97,163 @@
         <!-- Styles -->
         <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
-    <body>
-        <h1>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi ipsa
-            reiciendis aliquid corporis et recusandae, similique asperiores
-            repellat dolores ipsam quod architecto! Ad, veniam. Alias, officia
-            molestiae! Recusandae, aliquid consequuntur!
-        </h1>
-        <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem nobis
-            quam corporis, rerum necessitatibus explicabo fuga, debitis aliquid
-            numquam, incidunt laboriosam culpa fugit voluptatibus ad commodi
-            ullam cumque earum impedit quas inventore. Quis in atque ullam
-            blanditiis! Nesciunt praesentium aut placeat numquam, quas quod
-            dignissimos quam, quia voluptatum optio molestias magni natus
-            nostrum officiis. Quia ad velit nulla quam ut assumenda optio minus
-            voluptas harum nesciunt placeat rerum tempore saepe voluptatibus
-            totam et molestias, voluptatem consequuntur ea illo, quidem
-            excepturi. Reiciendis incidunt id culpa quas ipsa. Perspiciatis
-            architecto aliquam, similique, fugit alias itaque quis quia nulla
-            quasi, fugiat nam reiciendis.
-        </p>
+    <body style="height: 10000px">
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header__wrapper">
+                    <a href="#" class="logo">
+                        <img
+                            src="./assets/imgs/Logo.png"
+                            alt="Lucy - Established & Trusted Pet Care Service"
+                        />
+                    </a>
+
+                    <nav class="navbar">
+                        <div class="navbar-item">
+                            <a href="#!" class="navbar-item__link active">
+                                Home
+                            </a>
+                        </div>
+                        <div class="navbar-item">
+                            <a href="#!" class="navbar-item__link">About</a>
+                        </div>
+                        <div class="navbar-item">
+                            <a href="#!" class="navbar-item__link"
+                                >Services & Rates</a
+                            >
+                        </div>
+                        <div class="navbar-item">
+                            <a href="#!" class="navbar-item__link">Reviews</a>
+                        </div>
+                        <div class="navbar-item">
+                            <a href="#!" class="navbar-item__link"
+                                >Contacts us</a
+                            >
+                        </div>
+                    </nav>
+
+                    <div class="header-actions">
+                        <a href="#!" class="header__signin">Sign in</a>
+                        <button class="btn header__signup">Sign up</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero__wrapper">
+                    <div class="hero-media">
+                        <figure class="hero-media__main">
+                            <img
+                                class="hero-media__main-img"
+                                src="./assets/imgs/main-hero.png"
+                                alt="Established & Trusted Pet Care Service"
+                            />
+                            <img
+                                class="hero-media__decor-left"
+                                src="./assets/imgs/hero-decor01.png"
+                                alt=""
+                            />
+                            <img
+                                class="hero-media__decor-right"
+                                src="./assets/imgs/hero-decor02.png"
+                                alt=""
+                            />
+                        </figure>
+                        <figure class="hero-media__sub">
+                            <img
+                                class="hero-media__sub-img"
+                                src="./assets/imgs/sub-hero.png"
+                                alt="Established & Trusted Pet Care Service"
+                            />
+                        </figure>
+                        <div class="hero-media__service">
+                            <div class="hero-media__row">
+                                <figure class="hero-media__service-img">
+                                    <img
+                                        class="hero-media__service-thumb"
+                                        src="./assets/imgs/hero-service01.png"
+                                        alt=""
+                                    />
+                                </figure>
+                                <div class="hero-media__service-content">
+                                    <h3 class="hero-media__service-heading">
+                                        Pet Health
+                                    </h3>
+                                    <div class="hero-media__skeleton"></div>
+                                    <div
+                                        class="hero-media__skeleton short"
+                                    ></div>
+                                </div>
+                            </div>
+
+                            <div class="separate"></div>
+
+                            <div class="hero-media__row">
+                                <figure
+                                    class="hero-media__service-img hero-media__service-bottom-img"
+                                >
+                                    <img
+                                        class="hero-media__service-thumb"
+                                        src="./assets/imgs/hero-service02.png"
+                                        alt=""
+                                    />
+                                </figure>
+                                <div class="hero-media__service-content">
+                                    <h3 class="hero-media__service-heading">
+                                        Pet Health
+                                    </h3>
+                                    <div class="hero-media__skeleton"></div>
+                                    <div
+                                        class="hero-media__skeleton short"
+                                    ></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <section class="hero-content">
+                        <h1 class="hero-heading">
+                            Established & Trusted Pet Care Service
+                        </h1>
+
+                        <p class="hero-desc">
+                            Discover a wide variety of Pawsitive services to
+                            choose from, including daycare, private walks,
+                            office duty and spa.
+                        </p>
+
+                        <div class="hero-cta">
+                            <button class="btn hero-cta__btn">
+                                Book a Meet
+                                <div class="icon hero-cta__btn-icon">
+                                    <svg
+                                        width="5"
+                                        height="6"
+                                        viewBox="0 0 5 6"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M1.48584 0.5L3.98584 3L1.48584 5.5"
+                                            stroke="#FD5056"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        />
+                                    </svg>
+                                </div>
+                            </button>
+
+                            <a href="#!" class="hero-cta__link">
+                                Schedule a Call
+                            </a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
